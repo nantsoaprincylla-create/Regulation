@@ -1,0 +1,20 @@
+# Environnement virtuel Python
+.venv/
+venv/
+_pycache_/
+*.pyc
+
+#Dépendances du frontend
+node_modules/
+dist/
+
+#Fichiers confidentiels
+.env
+.env.*
+!.env. example
+
+#Fichiers temporaires
+*.log
+
+#Configuration locale VS code
+.vscode/
